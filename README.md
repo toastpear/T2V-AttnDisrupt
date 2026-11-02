@@ -78,8 +78,6 @@ Each output directory contains:
 - `history.jsonl`: all PGD steps, objective terms, gradient magnitude, and RGB budget.
 - `result.json`: the two captions, image hash, seed, attention span, and final attention statistics.
 
-The five examples are qualitative demonstrations of this release's input-space definition. They are not a reproduction of the paper's aggregate benchmark tables, transfer experiments, defenses, or comparative efficiency results. `attack_and_generation_seconds` measures the interval after clean-reference extraction and includes adversarial generation and some file I/O; it is not the paper's end-to-end attack-cost measurement.
-
 ## Validation
 
 Validate the bundled images, source hashes, 50-step histories, and PNG budget without loading a model:
