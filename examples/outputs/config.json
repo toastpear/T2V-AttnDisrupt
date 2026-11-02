@@ -1,0 +1,20 @@
+{
+  "backend": "llava",
+  "model_path": "liuhaotian/llava-v1.5-7b",
+  "manifest": "data/samples.json",
+  "images": "data/images",
+  "output": "examples/outputs",
+  "iters": 50,
+  "limit": 5,
+  "eps": 0.03137254901960784,
+  "alpha": 0.00784313725490196,
+  "seed": 42,
+  "topk": 50,
+  "num_beams": 3,
+  "max_new_tokens": 256,
+  "prompt": "Please describe this image in detail.",
+  "objective": "delta_entropy + 5 * relative_topk_suppression + JS",
+  "budget_space": "RGB [0,1] on the 336x336 padded/resized model-input canvas, including padding",
+  "implementation": "Five-image qualitative run on 2026-10-31",
+  "path_note": "Machine-specific paths normalized for publication; numeric settings unchanged."
+}

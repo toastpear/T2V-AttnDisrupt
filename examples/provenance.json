@@ -1,0 +1,17 @@
+{
+  "run_date": "2026-10-31",
+  "sampling": "First five records from the existing COCO val2017 500-image experiment split; no selection by attack outcome",
+  "original_runner_sha256": "7dd9e5c1ddc5b2e213205dcc4af650b949539b63079d82793b3a117ebcaaf486",
+  "public_runner_sha256": "08ad251d85795279dbe02f31960c9728973e3e00d8a1d32375875b2c8636b1ce",
+  "unchanged_ast_definitions": [
+    "AttentionReady",
+    "fraction",
+    "save_rgb",
+    "entropy",
+    "objective",
+    "attention_profile",
+    "LlavaBackend"
+  ],
+  "publication_changes": "Removed the Qwen backend and private launch paths; simplified CLI defaults and added argument/output checks. Core LLaVA and attack functions are unchanged.",
+  "base_github_commit": "3211ef6a36c1398463de88aa9e05b200328b9208"
+}

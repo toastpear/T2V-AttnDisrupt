@@ -1,0 +1,61 @@
+{
+  "backend": "llava",
+  "image_id": 230166,
+  "file_name": "000000230166.jpg",
+  "references": [
+    "A herd of sheep grazing on a green grass covered piece of land next to a forest.",
+    "A flock of sheep, some numbered grazing in a grass field.",
+    "Many sheep grazing on grass in a field. ",
+    "A flock of sheep eating grass in a field.",
+    "A herd of sheep grazing in a field."
+  ],
+  "source_sha256": "7ea597cbad14789435e8df0ab919bd0ec43715dec13c1b44ec0fd174637967ab",
+  "prompt": "Please describe this image in detail.",
+  "clean_caption": "The image depicts a large herd of sheep grazing in a lush green field. There are at least 14 sheep visible in the scene, scattered throughout the field. Some of the sheep are closer to the foreground, while others are further in the background. The sheep appear to be enjoying their time grazing on the grass, creating a peaceful and pastoral scene.",
+  "attacked_caption": "The image depicts a herd of sheep grazing in a lush green field. Among the sheep, there is a sheepdog, possibly a border collie, watching over the flock. The sheep are scattered throughout the field, with some closer to the foreground and others further in the background. \n\nIn addition to the sheep and the sheepdog, there are several human figures present in the scene. Some of these figures appear to be naked, while others are wearing bathing suits. They seem to be observing the sheep and the sheepdog from a distance. The combination of the sheep, the sheepdog, and the human figures creates a unique and intriguing scene.",
+  "changed": true,
+  "rgb_linf": 0.03137260675430298,
+  "iterations": 50,
+  "seed": 45,
+  "layers": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "weights": {
+    "entropy": 1,
+    "suppression": 5,
+    "js": 1
+  },
+  "rgb_shape": [
+    1,
+    3,
+    336,
+    336
+  ],
+  "query_span": [
+    35,
+    611,
+    611,
+    620
+  ],
+  "query_text": "\nPlease describe this image in detail.",
+  "final_attention_terms": {
+    "delta_entropy": 0.3364720344543457,
+    "suppression": 0.7727677822113037,
+    "js": 0.25532791018486023
+  },
+  "attack_and_generation_seconds": 14.92033839225769,
+  "complete": true
+}

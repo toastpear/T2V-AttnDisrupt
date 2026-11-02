@@ -1,0 +1,37 @@
+{
+  "all_parameters_frozen": true,
+  "model_eval": true,
+  "layers": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "query_text": "\nPlease describe this image in detail.",
+  "attention_span": [
+    35,
+    611,
+    611,
+    620
+  ],
+  "vision_gradient_bridge_forward_max_error": 0.0,
+  "clean.png_processor_roundtrip_max_error": 0.0,
+  "adv.png_processor_roundtrip_max_error": 0.0,
+  "objectives": [
+    4.595457553863525,
+    4.595457553863525
+  ],
+  "gradient_max_abs_error": 0.0,
+  "gradient_cosine": 1.0000439882278442,
+  "gradient_sign_agreement": 1.0
+}

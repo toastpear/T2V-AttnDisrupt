@@ -1,0 +1,14 @@
+torch==2.1.2
+torchvision==0.16.2
+transformers==4.37.2
+tokenizers==0.15.1
+accelerate==0.21.0
+sentencepiece==0.1.99
+numpy==1.23.5
+Pillow==10.4.0
+safetensors==0.5.3
+huggingface-hub==0.32.2
+protobuf==6.31.1
+einops==0.6.1
+einops-exts==0.0.4
+timm==0.6.13

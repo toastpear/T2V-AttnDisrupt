@@ -1,0 +1,61 @@
+{
+  "backend": "llava",
+  "image_id": 210299,
+  "file_name": "000000210299.jpg",
+  "references": [
+    "A little boy riding his bike and wearing a helmet",
+    "A little boy raveling down a road on a bike, with a yellow helmet on.",
+    "The boy wears a helmet while riding his bicycle.",
+    "a small child wearing a helmet and riding a bike",
+    "A little boy wearing a helmet and riding a bike."
+  ],
+  "source_sha256": "dbdcbb432c918d11747928a3eb0d80498b9cc52087b5fe515e17b3cffb7e8240",
+  "prompt": "Please describe this image in detail.",
+  "clean_caption": "The image features a young boy wearing a helmet and riding a bicycle on a concrete surface. The boy appears to be enjoying his time on the bike, possibly learning how to ride it. The bicycle is positioned in the center of the scene, with the boy sitting on it.\n\nIn the background, there is another bicycle located towards the right side of the image. Additionally, a backpack can be seen placed on the ground near the center of the scene, possibly belonging to the boy or someone else in the area.",
+  "attacked_caption": "The image features a young boy riding a bicycle on a dirt road. He is wearing a helmet for safety while enjoying his ride. The boy is also carrying a backpack on his back, possibly filled with his belongings or supplies for a journey.\n\nIn the background, there is a car parked on the side of the road, possibly belonging to the boy's family or friends. The scene captures a moment of adventure and outdoor exploration for the young boy.",
+  "changed": true,
+  "rgb_linf": 0.03137260675430298,
+  "iterations": 50,
+  "seed": 46,
+  "layers": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "weights": {
+    "entropy": 1,
+    "suppression": 5,
+    "js": 1
+  },
+  "rgb_shape": [
+    1,
+    3,
+    336,
+    336
+  ],
+  "query_span": [
+    35,
+    611,
+    611,
+    620
+  ],
+  "query_text": "\nPlease describe this image in detail.",
+  "final_attention_terms": {
+    "delta_entropy": 0.36320018768310547,
+    "suppression": 0.812777042388916,
+    "js": 0.25930172204971313
+  },
+  "attack_and_generation_seconds": 13.021366119384766,
+  "complete": true
+}
