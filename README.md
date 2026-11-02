@@ -98,8 +98,6 @@ CUDA_VISIBLE_DEVICES=0 python validation/verify_runtime.py \
   --output runs/runtime_checks.json
 ```
 
-The check covers one example; it does not establish benchmark or transfer performance. The early-stop path stops after the final selected layer during attack optimization; ordinary generation uses the full model. The model remains in evaluation mode with frozen parameters, and only the input image is updated. A clean caption is generated for comparison but is not passed to the loss or used to choose an adversarial image.
-
 ## Citation
 
 ```bibtex
